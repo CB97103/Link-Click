@@ -1,0 +1,124 @@
+.fondo-listado{
+    background:linear-gradient(rgb(0, 0, 0), rgb(28, 28, 28));
+}
+
+.contenedor-boton{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+    align-items:start;
+    justify-content: right;
+    transform: translate(-4%, -550%);
+}
+
+.logout{
+    height: 50px;
+    width: 120px; 
+    margin: 0 20px;
+    font-size: 16px;
+    border: 0 solid;
+    border-radius: 6px;
+    background:  rgb(23, 23, 23);
+    color: #ffffff;
+}
+
+/*----------                     home fotografía-----------------------------------------*/
+.home{
+    font-size: 16px;
+    min-height: 650px;
+    color: #fff;
+    background:  linear-gradient(rgba(161, 161, 161, 0.341),rgba(0, 0, 0, 0.698)), url(../img/home.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: end;
+}
+
+/*-------------------------------------------Texto home---------------------------------------*/
+.home .contenedor-inicio{
+    margin: 0 auto;
+    margin-left: 90px;
+    margin-bottom: 80px;
+}
+
+.home .titulo{
+    font-size: 80px;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.home .sinopsis{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    max-width: 50%;
+    margin-bottom: 15px;
+}
+.home .trailer{
+    font-weight: normal;
+    font-size: 18px;
+    max-width: 50%;
+}
+
+a{
+    color: #fff;
+}
+a:hover{
+    color: rgba(72, 161, 115, 0.783);
+}
+
+
+
+/*------------------------------------------Episodios-----------------------------------------*/
+
+.episodios{
+    margin: 40px;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-----------Titulo---------------*/
+ .soundtrack {
+    padding: 0px 0px 100px 84px;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.011), rgba(71, 71, 71, 0.551));
+    color: #fff;
+}
+
+/*----------------------------------------------Video------------------------------------------- */
+
+.soundtrack .tsound{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.contenedor-video{
+    width: 70%;
+    display: grid;
+    grid-template-columns:50% 50%;
+    gap: 136px;
+}
+
+.boxv p {
+    padding: 2px;
+    line-height: 1;
+    font-size: 18px;
+}
+
+@media screen and (max-width:768px) {
+    .contenedor-listado .episodios{
+        grid-template-columns: 100%;
+    }
+    .contenedor-video{
+        grid-template-columns: 100%;
+    }
+    
+}
+
