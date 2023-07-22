@@ -76,6 +76,7 @@ export default function Listado() {
           image="ep4"
           name="Declaración"
           descripcion="El encargo marchaba bien, pero Cheng Xiaoshi se da cuenta de que la misión se dirige hacia un recuerdo inolvidable."
+          phrase="0"
           />
 
         <Item 
@@ -83,6 +84,7 @@ export default function Listado() {
           image="ep5"
           name="Adiós"
           descripcion="Enfrentándose a un pasado irreversible, Cheng Xiaoshi quiere cambiar el futuro."
+          phrase="0"
           />
          
          <Item 
@@ -132,6 +134,7 @@ export default function Listado() {
          image="ep11"
          name="Personas de luz"
           descripcion="Aunque consiguen arrestar al asesino, la batalla para Cheng Xiaoshi y Lu Guang aún no ha terminado."
+          phrase="0"
           />
       </div>
       <br/>

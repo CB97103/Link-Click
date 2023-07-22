@@ -25,7 +25,7 @@ export default function Detail() {
           <p>{nombre}</p>
           <p>{name}</p>
           <p>{descripcion}</p>
-          <p>{phrase}</p>
+          { phrase === "0" ? <></>  : <p>{phrase}</p>}
 
           <button onClick={() => {
             navigate ('/Listado')
